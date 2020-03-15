@@ -24,7 +24,7 @@ import os, re
 search_dir = "/path/to/your/system/dir/" # Where is the file located in your O.S.?
 server_dir = "/path/to/your/server/dir/" # Where is the file located in the server?
 
-# Get the file from search.htm (?=... )
+# Get the filename from search.htm (?=... ), the filename is called "something"
 form = cgi.FieldStorage() 
 something = form.getvalue('something')
 
