@@ -1,0 +1,18 @@
+<html>
+<head>
+ <title>Simple Search CGI</title>
+ <!-- CSS -->
+ <link rel="stylesheet" type="text/css" href="/search.css">
+</head>
+<body>
+ <center>
+ <br><b><font size=6>Simple Search CGI</font></b>
+ <br>
+ <--! Search form, it sends the var "something" to /cgi-search.py -->
+ <form method=POST action="/cgi-bin/search.py">
+  <p>Search Something:</p><input type=text name="something" required minlength="1" size=40>
+  <input type=submit value="Search!">
+ </form>
+</center>
+</body>
+</html>

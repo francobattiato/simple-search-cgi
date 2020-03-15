@@ -1,0 +1,18 @@
+body {
+	font-family: "URW gothic L";
+	font-size: 25;
+} 
+a:hover {
+	color: white; 
+	background-color: black;
+}
+a {	
+	color: black;
+	font-size: 20px;
+
+}
+li {
+	padding-left: 3cm;
+	padding-right: 3cm;
+}
+
