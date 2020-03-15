@@ -32,7 +32,7 @@ print("Content-type:text/html\r\n\r\n")
 print("<html>")
 print("<head>")
 print(' <link rel="stylesheet" type="text/css" href="/search.css">')
-print(" <title>Simple Search cgi</title>"
+print(" <title>Simple Search cgi</title>")
 print("</head>")
 print("<body>")
 print('<h1> Search results for: ' + something + '</h1>')
