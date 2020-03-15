@@ -16,6 +16,6 @@
    
   Remember to put an ending "/" to server-dir because it will be threated as a string 
   If you're searching for apple and you find an apple.txt, withount and ending /
-  the link of apple.txt will be /filesapple.txt while it should be /files/apple.txt
+  the link of apple.txt will be /filesapple.txt instead of /files/apple.txt
    
-  Remember to enable python cgi on your apache configuration file. 
+  Remember to enable .py cgi on your apache configuration file and the cgi module.
