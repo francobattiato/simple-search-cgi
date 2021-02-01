@@ -1,4 +1,4 @@
-# simple-search-cgi
+# simple-search-cgi (Archived)
 
   A Simple Case-Insensitive Search script written in python for your website.
   It works on Apache 2.4 servers 
